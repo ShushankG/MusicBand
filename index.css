@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+@font-face {
+    font-family: booter;
+    src: url(./font/BOOTERFZ.ttf);
+    font-weight: normal;
+  font-style: normal;
+}
+*{
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: #777;
+}
+html,body{margin: 0%;
+    padding: 0%;}
+.HeadBg{
+    background-image: url(./images/1543730.jpg);
+    background-color: rgba(0, 0,0 ,.6);
+    background-blend-mode: multiply;
+  
+}
+.AllNav li{
+   display: inline-block;
+
+}
+.AllNav ul{
+    margin: 0%;
+}
+.mainnav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 30px;
+    color: white;
+    padding-top: 20px;
+}
+.mainnav{
+    text-align: center;
+    font-size: 16px;
+    border-bottom: 1px solid #777;
+    padding:0 5%;
+
+}
+.nav a:hover{
+    background-color: rgb(225, 225, 225,.3) ;
+}
+.title1{
+    font-family: "booter";
+    font-size: 70px;
+    text-align: center;
+    color: #fff;
+    margin: 0%;
+      font-weight: normal;
+  font-style: normal;
+}
+.Button{
+ text-align: center;
+ vertical-align: middle;
+ padding: .67em;
+cursor: pointer;
+}
+.button-header{
+
+ border: 2px solid #bd20bd;
+ background-color: rgba(225, 225, 225,.1);
+ font-size: 1.5em;
+ padding-left: 2em;
+ padding-right: 2em;
+ font-weight: lighter;
+ margin: 2em 1% 2em 39%;
+ color: white;
+ border-radius: 20px;
+ display: block;
+ 
+}
+.button-header:hover{
+    background-color:rgba(255, 255, 255, 0.329) ;
+}
+.play{
+    border-radius: 50%;
+    border: 2px solid #bd20bd;
+    background-color: rgba(225, 225, 225,.1);
+    margin: 0 auto;
+padding: 0%;
+    color: white;
+    width: 100px;
+    height: 100px;
+ font-size: 4em;
+    display: block;
+}
+.play:hover{
+    background-color:rgba(255, 255, 255, 0.329) ;
+}
+.tour{
+    display: block;
+    text-align: center;
+    font-family: "booter";
+    color: black;
+    font-style: normal;
+   font-size: 40px;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.section-container {
+    margin: 1em;
+    
+}
+.tour-row{
+   
+    border-bottom: 2px solid gray;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+  
+  
+}
+.tour-date{
+    
+        color: #555;
+        width: 11%;
+        font-weight: bold;
+    
+}
+.tour-city{
+    
+        color: #555;
+        width: 17%;
+        
+    
+}
+.tour-arina{
+    width: 34%;
+        color: #555;
+     
+        
+    
+}
+.tour-item{
+    display: inline-block;
+}
+.btn{
+background-color: rgba(155, 35, 211, 0.534) ;
+color: #fff;
+border: 2px solid  rgba(155, 35, 211, 0.534);
+border-radius: 10px;
+cursor: pointer;
+}
+.btn:hover{
+    background-color:rgb(155, 35, 211);
+    color: #fff;
+}
+.main-footer{
+    background-color: rgb(155, 35, 211);
+    color: #fff;
+    padding: .25em 0em;
+}
+.main-footer img{
+    width:40px ;
+    height: 40px;
+    padding: .3em;
+    margin-right: 50px;
+    display: inline-block;
+}
+
+
+.h3{
+  
+    text-align: center;  
+    font-size: 70px ;
+    margin: 0%;
+    font-family:"booter";
+    font-weight: normal;
+    font-style: normal;
+    color: #fff;
+}
+.main-footer-container ul{
+    flex-grow: 1;
+  text-align: end;
+}
+.main-footer-container{
+    display: flex;
+    align-items: center;
+}

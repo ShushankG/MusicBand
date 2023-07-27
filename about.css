@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+@font-face {
+    font-family: booter;
+    src: url(./font/BOOTERFZ.ttf);
+    font-weight: normal;
+  font-style: normal;
+}
+*{
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: #777;
+}
+html,body{margin: 0%;
+padding: 0%;}
+.nav ul {
+    margin: 0;
+}
+
+.nav li{
+    display: inline;
+}
+.nav a{
+    display: inline-block;
+    padding: 30px;
+    padding-top: 20px;
+    text-decoration: none;
+    color: white
+}
+.nav a:hover{
+    background-color: rgb(225, 225, 225,.3) ;
+}
+.main-nav{
+    text-align: center;
+    font-size: 16px;
+    padding:0 5%;
+    font-weight: lighter;
+    border-bottom: 1px solid #777;
+}
+.band-name{
+  text-align: center;  
+  font-size: 70px ;
+  margin: 0%;
+  font-family:"booter";
+  font-weight: normal;
+  font-style: normal;
+  color: #fff;
+  
+}
+
+.band-name-large{
+    font-size: 8em;
+}
+.content-section{
+    margin:1em;
+}
+.ABo{
+    text-align: center;
+    color:rgb(100, 95, 95);
+    font-size: 40px;
+    font-family: 'Metal Mania', cursive;
+}
+.container{
+    max-width: 900px;
+    margin:0px auto;
+    padding: 0 1.5em;
+    
+
+}
+#uu{
+    color: rgb(54, 47, 47);
+}
+.main-header{
+    background-image:url(./images/1543730.jpg);
+    background-color: rgb(0, 0, 0,.6);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+   
+}
+.about-band-img{
+    width: 300px;
+    height: 200px;
+    margin-right: 15px;
+ border-radius: 50px;
+    float: left;
+}
+.main-footer-container{
+    display: flex;
+    align-items: center;
+}
+.main-footer-container ul{
+  flex-grow: 1;
+  text-align: end;
+}
+.main-footer {
+    background-color: rgb(155, 35, 211);
+color: #fff;
+padding: .25em 0em;
+}
+
+.i{width:40px ;
+    height: 40px;
+    padding: 0.3em;
+}
+
